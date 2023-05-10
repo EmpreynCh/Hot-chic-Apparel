@@ -1,0 +1,59 @@
+*{
+    font-family: Arial,;
+   
+}
+body{
+    background: bisque;
+}
+.section-padding{
+    padding: 100px 0;
+}
+
+.navbar-nav a{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-Light .navbar-brand{
+    color: beige;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+.navbar-Light .navbar-brand:focus, 
+.navbar-Light .navbar-brand:hover{
+    color: black;
+}
+.navbar-Light .navbar-nav .navbar-Link{
+    color: black;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+
+/*responsive css === */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+ .card{
+    margin-bottom: 30px;
+ }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align:center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    
+    }
+
+
+}
+
+
+
+
+ 
